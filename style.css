@@ -1,0 +1,22 @@
+:root {
+    --site-color: rgb(25, 134, 223); 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.container .dashboard {
+    display: grid;
+    background-color: var(--site-color);
+}
+
+.container .dashboard .col1, .col2 {
+    display: grid;
+}
+
+.col1 {
+    display: grid;
+}
